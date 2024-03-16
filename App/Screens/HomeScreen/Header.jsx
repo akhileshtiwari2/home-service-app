@@ -36,7 +36,7 @@ export default function Header() {
 const styles = StyleSheet.create({
     container:{
         padding:20,
-        paddingTop:40,
+        paddingTop:30,
         backgroundColor:Colors.PRIMARY,
         borderBottomLeftRadius:25,
         borderBottomRightRadius:25
@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
         display:'flex',
         flexDirection:'row',
         gap:10,
-        marginBottom:20
+        marginBottom:10
     },
     searchBtn:{
         backgroundColor:Colors.WHITE,
